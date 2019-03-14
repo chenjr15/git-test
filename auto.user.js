@@ -47,7 +47,7 @@ function autoplay() {
 			var n = Math.floor(Math.random() * 10 % answers.size());
 			answers.get(n).firstElementChild.click();
             infoBoard.text("Click"+n);
-			setTimeout(closeBox, 700);
+			setTimeout(closeBox, 1000+Math.random() * 100);
 		} else
 			// 进度条到底
 			if ($(".currentTime").text() == $(".duration").text()) {
