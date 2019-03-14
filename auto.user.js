@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         智慧树助手
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  智慧树 自动处理弹框问题 自动下一节
 // @author       Chenjr
 // @match        http://study.zhihuishu.com/learning/videoList*
 // @grant        none
+// @supportURL   https://github.com/chenjr15/git-test/README.md
+// @updateURL    https://github.com/chenjr15/git-test/raw/master/auto.user.js
 // ==/UserScript==
 var statusBoardOuter = $("<div class=\"headerMenuFixed\" id=\"statusBoardOuter\"> </div>");
 var infoBoard = $("<span id=\"infoboard\">this is info</span>");
