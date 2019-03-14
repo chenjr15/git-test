@@ -16,6 +16,7 @@ $("body > div.study_page").before(statusBoardOuter);
 statusBoardOuter.append(infoBoard);
 statusBoardOuter.append(autoplayCheck);
 
+//TEST UPDATE
 
 
 
