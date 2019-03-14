@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         智慧树助手
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @version      0.1.2
 // @description  智慧树 自动处理弹框问题 自动下一节
 // @author       Chenjr
 // @match        http://study.zhihuishu.com/learning/videoList*
